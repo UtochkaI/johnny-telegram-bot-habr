@@ -1,7 +1,7 @@
-# Как плохой VPS для VPN случайно превратился в злого Telegram-бота-инженера
+﻿# Как плохой VPS для VPN случайно превратился в злого Telegram-бота-инженера
 
 Исходные материалы, хронология и sanitized source pack:  
-https://github.com/UtochkaI/johnny-telegram-bot-article
+https://github.com/UtochkaI/johnny-telegram-bot-habr
 
 ## Коротко
 
@@ -260,7 +260,7 @@ drafts/    — черновик статьи
 ```
 
 Ссылка:  
-https://github.com/UtochkaI/johnny-telegram-bot-article
+https://github.com/UtochkaI/johnny-telegram-bot-habr
 
 ## Вывод
 
@@ -271,4 +271,5 @@ Prompt задаёт характер. Но устойчивое поведени
 Плохой VPS для VPN в итоге оказался полезен: он стал полигоном для эксперимента, который быстро вырос из “сделай что-нибудь забавное” в полноценный разбор того, как LLM ведёт себя в живой социальной среде.
 
 Главный урок получился простой: если бот умеет только отвечать — он ещё не готов к группе. Сначала его нужно научить молчать.
+
 

@@ -1,19 +1,33 @@
 ﻿# Johnny Telegram Bot — Habr article materials
 
-Public materials for a Habr article about the creation of Johnny, a Telegram LLM bot with a sharp engineering character.
+Public supporting materials for a Habr article about Johnny, a Telegram LLM bot with a sharp engineering character.
 
-This repository intentionally contains only article-facing materials.
+This is not the production bot repository.
 
 ## Contents
 
 - drafts/habr_johnny_draft_v2.md — current Habr draft
-- article/johnny_article_outline_v1.md — article outline
-- article/johnny_article_origin_note.md — user-confirmed origin note
-- docs/architecture_overview.md — high-level architecture overview
+- docs/architecture_overview.md — high-level architecture
+- docs/runtime_layers.md — public runtime-layer model
+- docs/regression_matrix_public.md — public regression checklist
 - docs/publication_safety_note.md — what is intentionally not published
+- examples/top_reactions.md — placeholder for selected reacted replies
 
 ## Not included
 
-This is not the production bot repository. Production source code, prompts, .env, logs, memory databases, private chat history, patch indexes and internal regression materials are intentionally excluded.
+- production source code
+- system prompts
+- character/personality prompts
+- .env and runtime config
+- bot tokens and API keys
+- raw logs
+- memory databases
+- private chat history
+- full patch index
+- internal regression matrices
+- anything that would allow cloning the production bot
 
-The article draft references this repository as supporting material, not as a reproducible production release.
+## Public repository purpose
+
+The repository supports the article with safe architecture notes and selected examples.
+It intentionally does not provide a reproducible production release.
