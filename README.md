@@ -25,9 +25,7 @@ This is not the production bot repository.
 - private chat history
 - full patch index
 - internal regression matrices
-- anything that would allow cloning the production bot
 
 ## Public repository purpose
 
 The repository supports the article with safe architecture notes and selected examples.
-It intentionally does not provide a reproducible production release.
